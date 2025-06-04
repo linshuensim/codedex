@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Shuen's Blog</title>
+  </head>
+  <body>
+    <header>
+      <h1>Shuen's Blog</h1>
+      <nav>
+        <ul>
+          <li><a href="#about-section">About</a></li>
+          <li><a href="#stories-secrtion">Stories</a></li>
+          </ul>
+        </nav>
+      </header>
+    <main>
+      <h2>Blog Title
+        </h2>
+        <section>
+          <h2>About
+            </h2>
+            <article>
+              The author is a faggot.
+              </article>
+          </section>
+        <section>
+          <h2>Stories</h2>
+          <article>
+            <h3>Story 1</h3>
+            <p> This story is about hasjdlahwjdkahsjk
+              </p>
+            </article>
+          <article>
+            <h3>Story 2</h3>
+            <p> Lorem ipsum eklaksdjwkal
+              </p>
+            </article>
+          </section>
+      </main>
+    <footer>
+      <ul>
+        <li><a href="#archive-section">Archive</a></li>
+        <li><a href="#legel-section">Legal</a></li>
+        </ul>
+      </footer>
+  </body>
+</html>
