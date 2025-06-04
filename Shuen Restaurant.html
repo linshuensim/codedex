@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Shuen's Restaurant</title>
+		</head>
+	<body>
+	<header>
+		<figure>
+			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Sausage_and_mash_with_peas.jpg/1920px-Sausage_and_mash_with_peas.jpg"
+			id="header-img"
+			height="80">
+
+		</figure>
+		<h1>Shuen's Restaurant</h1>
+		<nav>
+			<ul>
+				<li><a href="#menu">Menu</a></li>
+				<li><a href="#order-form">Order Form</a></li>
+			</ul>
+			<hr>
+	</header>
+	<main>
+		<figure>
+		<section id="menu">
+		<h2>Menu</h2>
+		<article>
+		<h3>Chicken Maryland</h3>
+		<img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Chicken_chop_with_ayam_goreng_way_of_breading.jpg"
+			width="500"
+			alt="Chicken Maryland">
+
+		<p>Breaded fried chicken served with your choice of boiled vegetable. Comes with a curious banana.<br>
+			<i>RM28.00</i></p>
+		</article>
+
+		<article>
+			<h3>Fish and Chips</h3>
+			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Fish_and_chips_blackpool.jpg/330px-Fish_and_chips_blackpool.jpg"
+			width="500"
+			alt="Fish and Chips">
+
+			<p>Your choice of Halibut or Grouper fillet, deep-fried in crispy beer batter. Comes with fries and mashed peas.<br>
+				<i>RM35.00</i></p>
+		</article>
+
+		<article>
+			<h3>Lobster Thermidore</h3>
+			<img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Lobster_Thermidor_entree.jpg"
+			width="500"
+			alt="Lobster Thermidore">
+			<p> Boiled whole lobster, seasoned with parsley butter and baked with cheese.<br>
+				<i>RM85.00</i></p>
+		</article>
+	</figure>
+
+		</section>
+	
+		<hr>
+		<h2>Place Your Order</h2>
+		
+		<section id="order-form">
+			<form>
+				<h3>Chicken Maryland</h3>
+				<label for="cm_extra">Extra addons:<br></label>
+				<input type="checkbox" id="cm_extra">Extra Gravy for RM2.00<br>
+				<input type="checkbox" id="cm_extra">Extra Fries for RM2.00<br>
+				<label for="cm_qty">Quantity: <input type="number" min="0" id="cm_qty">
+
+
+				<h3>Fish and Chips</h3>
+				<label for="fish">Choice of Fish:<br></label>
+				<input type="radio" name="fish" id="fish">Halibut<br>
+				<input type="radio" name="fish" id="fish">Grouper<br>
+				<label for="fc_qty">Quantity: <input type="number" min="0" id="fc_qty">
+
+				<h3>Lobster Thermidore</h3>
+				<label for="lt_extra">Extra addons:<br></label>
+				<input type="checkbox" id="lt_extra">Extra Parsley Butter Sauce for RM2.00<br>
+				<input type="checkbox"id="lt_extra">Extra Mashed Peas for RM2.00<br>
+				<label for="lt_qty">Quantity: <input type="number" min="0" id="lt_qty">
+
+				<br><br>
+				<label for="request">Special Requests:</label>
+				<br>
+				<textarea id="request" rows="5" cols="50" placeholder="We'll try to accommodate your requests!" maxlength="250"></textarea>
+
+				<br><br>
+
+				<input type="submit" value="Go To Checkout">
+			</form>
+		</section>
+	
+	</main>
+	<footer>
+		<p>Made with love by Shuen</p>
+		<nav>
+			<ul>
+				<li><a href="#menu">Menu</a></li>
+				<li><a href="#order-form">Place your order</a></li>
+			</ul>
+		</nav>
+	</footer>
+	</body>
+</html>
